@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><img src="./images/logo.png" alt="logo" height="35px"></label>
+        <ul>
+            <li><a href="#intro" class="active" style="text-decoration: none; ">Intro Page</a></li>
+            <li> <a href="#best" style="text-decoration: none;">Best Selling Books</a></li>
+            <li>
+                <a href="#recommendation" style="text-decoration: none;">Recommendation</a>
+            </li>
+            <li><a href="#review" style="text-decoration: none;">Review</a></li>
+        </ul>
+
+    </nav>
+    <div class="container" id="intro">
+        <div class="sidebar">
+            <h1 class="heading">BOOKS WAGON</h1>
+            <!-- <hr size="6px" color="white" style="stroke-dasharray: 2px;"> -->
+            <p class="content">All categories of books are available</p>
+            <div>
+                <button class="button"><a href="#best">best seller books</a> </button>
+            </div>
+        </div>
+        <!-- <div class="cover">    
+            <img src="./images/img.jpg" alt="cover photo" class="cover">
+        </div> -->
+    </div>
+    <div class="banner"><img src="./images/promo.jpg" alt="promotion" height="300px" width=100%></div>
+    <div class="best" id="best">
+        <div class="title">
+            <h1 class="header">BEST SELLING BOOKS</h1>
+            <div class="boxes">
+                <div class="box1">
+                    <div class="im1">
+                        <img src="./images/book1.jpg" alt="book image" width="100%" height="440px">
+                    </div>
+                    <div class="im1info">
+                        <p>
+                            <span class="booktitle1">Rich Dad Poor Dad </span>
+                            <span class="author1">Robert T Kiyosaki </span>
+                            <span class="prize1">Rs 391<del>&nbsp;Rs 550</del>(31% off)</span>
+                            <span>
+                                <button class="button2">Add+</button>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="im1">
+                        <img src="./images/book2.jpg" width="100%" alt="book image" height="440px">
+                    </div>
+                    <div class="im1info">
+                        <p>
+                            <span class="booktitle1">The power of your subconscious mind</span>
+                            <span class="author1">Joseph Murphy</span>
+                            <span class="prize1">Rs 165<del>&nbsp;Rs 275</del>(40% off)</span>
+                            <span>
+                                <button class="button2">Add+</button>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="im1">
+                        <img src="./images/book3.jpg" width="100%" alt="book image" height="440px">
+                    </div>
+                    <div class="im1info">
+                        <p>
+                            <span class="booktitle1">Atomic Habit</span>
+                            <span class="author1">James Clear</span>
+                            <span class="prize1">Rs 551<del>&nbsp;Rs 799</del>(31% off)</span>
+                            <span>
+                                <button class="button2">Add+</button>
+                            </span>
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="box1">
+                    <div class="im1">
+                        <img src="./images/book4.jpg" width="100%" alt="book image" height="440px">
+                    </div>
+                    <div class="im1info">
+                        <p>
+                            <span class="booktitle1">Quantitative Aptitude</span>
+                            <span class="author1">R S Aggarwal</span>
+                            <span class="prize1">Rs 622<del>&nbsp;Rs 749</del>(17% off)</span>
+                            <span>
+                                <button class="button2">Add+</button>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            <div class="banner"><img src="./images/promo4.jpg" alt="promotion" height="300px" width=100%></div>
+            <div class="best" id="recommendation">
+                <div class="title2">
+                    <h1 class="header2">RECOMMENDATION SECTION </h1>
+                    <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                    <button type="submit" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <div class="boxes">
+                    <div class="box1">
+                        <div class="im1">
+                            <img src="./images/book5.jpg" alt="book image" height="440px" class="image">
+                        </div>
+                        <div class="im1info">
+                            <p>
+                                <span class="booktitle1">The Diary Of A Young Girl</span>
+                                <span class="author1">Anne Frank</span>
+                                <span class="prize1">Rs 700 <del>&nbsp;Rs 1000</del>(30% off)</span>
+                                <span>
+                                    <button class="button2">Add+</button>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="im1">
+                            <img src="./images/book6.jpg" alt="book image" height="440px">
+                        </div>
+                        <div class="im1info">
+                            <p>
+                                <span class="booktitle1">Magic</span>
+                                <span class="author1"> Rhonda Byrne</span>
+                                <span class="prize1">Rs 344<del>&nbsp;Rs 499</del>(31% off)</span>
+                                <span>
+                                    <button class="button2">Add+</button>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="im1">
+                            <img src="./images/book7.jpg" alt="book image" height="440px">
+                        </div>
+                        <div class="im1info">
+                            <p>
+                                <span class="booktitle1">The Midnight Library </span>
+                                <span class="author1">Haig Matt Haig</span>
+                                <span class="prize1">Rs 419<del>&nbsp;Rs 599</del>(30% off)</span>
+                                <span>
+                                    <button class="button2">Add+</button>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="im1">
+                            <img src="./images/book8.jpg" alt="book image" height="440px">
+                        </div>
+                        <div class="im1info">
+                            <p>
+                                <span class="booktitle1">November 9</span>
+                                <span class="author1">Colleen Hoover</span>
+                                <span class="prize1">Rs 344<del>&nbsp;Rs 499</del>(31% off)</span>
+                                <span>
+                                    <button class="button2">Add+</button>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="form-heading" id="review">REVIEW SECTION</h1>
+
+                <div class="people">
+                    <div class="blocks">
+                        <div><img src="./images/review-1.jpg" alt="" class="reviewimage1"></div>
+                        <div class="contentreview">
+                            <span><b>Alexa Gray</b></span>
+                            <br>
+                            <br>
+                            <span>This website provides books at a very reasonable cost , and it has all variety of
+                                books Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repudiandae fuga,
+                                minima blanditiis ea, sint architecto, aperiam magni tenetur provident sequi molestiae!
+                                Doloremque, doloribus omnis sed hic facere assumenda ad.</span>
+                        </div>
+                    </div>
+                    <hr color="white">
+                    <hr color="white">
+                    <hr color="white">
+                    <hr color="white">
+                    <hr color="white">
+                    <div class="blocks" id="diff">
+                        <div class="reviewimage"><img src="./images/review-2.jpg" alt="" width="94%" height="96%"
+                                class="reviewimage1"></div>
+                        <div class="contentreview">
+                            <span><b>Emiley Wiley</b></span>
+                            <br>
+                            <br>
+                            <span>Delivery was very fast . The books reached to me in 2 days in a good condition Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit. Nihil dolores ad error voluptatibus
+                                dolorem tenetur cupiditate, labore corporis qui ipsum provident explicabo, veritatis
+                                omnis sapiente cumque praesentium earum nam? Vel!</span>
+                        </div>
+                    </div>
+                    <hr color="white">
+                    <hr color="white">
+                    <hr color="white">
+                    <hr color="white">
+                    <hr color="white">
+                    <div class="blocks">
+                        <div class="reviewimage"><img src="./images/review-3.jpg" alt="" width="78%" height="130%"
+                                class="reviewimage1"></div>
+                        <div class="contentreview">
+                            <span><b>David Smith</b></span>
+                            <br>
+                            <br>
+                            <span>The cost of the book in this website is much lower than normal bookshop prizes Lorem
+                                ipsum, dolor sit amet consectetur adipisicing elit. Consectetur eos accusamus, quae,
+                                cupiditate, ipsa error quidem maiores soluta voluptates veritatis porro alias adipisci
+                                aspernatur sit quis nostrum perferendis ab? Necessitatibus!</span>
+                        </div>
+                    </div>
+                </div>
+                <hr color="white">
+                <hr color="white">
+                <hr color="white">
+                <hr color="white">
+                <hr color="white">
+                <hr color="white">
+                <hr color="white">
+                <h1 class="form-heading">Please give us a review</h1>
+                <div class="container2">
+                    <form action="/action_page.php">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname">Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="name" name="firstname" placeholder="Your name..">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="emailid">Email Id</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Your emailid..">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="country">Country</label>
+                            </div>
+                            <div class="col-75">
+                                <select id="country" name="country">
+                                    <option value="australia">India</option>
+                                    <option value="canada">Japan</option>
+                                    <option value="usa">USA</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="subject">Review</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="subject" name="subject" placeholder="Write a review.."
+                                    style="height:150px"></textarea>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" value="Submit" target="none">
+                        </div>
+                    </form>
+                </div>
+                <hr color="white">
+                <hr color="white">
+                <hr color="white">
+                <hr color="red">
+                <hr color="red">
+                <footer class="footer">
+                    <div class="cont">
+                        <div class="row">
+                            <div class="footer-col">
+                                <h4>company</h4>
+                                <ul>
+                                    <li><a href="#" target="none">about us</a></li>
+                                    <li><a href="#" target="none">our services</a></li>
+                                    <li><a href="#" target="none">privacy policy</a></li>
+                                    <li><a href="#" target="none">affiliate program</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4>get help</h4>
+                                <ul>
+                                    <li><a href="#" target="none">FAQ</a></li>
+                                    <li><a href="#" target="none">shipping</a></li>
+                                    <li><a href="#" target="none">returns</a></li>
+                                    <li><a href="#" target="none">order status</a></li>
+                                    <li><a href="#" target="none">payment options</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4>online shop</h4>
+                                <ul>
+                                    <li><a href="#" target="none">Anime/Manga</a></li>
+                                    <li><a href="#" target="none">Engineering Books</a></li>
+                                    <li><a href="#" target="none">Famous Author Books</a></li>
+                                    <li><a href="#" target="none">Popular Books</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4>follow us</h4>
+                                <div class="social-links">
+                                    <a href="#" target="none"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" target="none"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" target="none"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" target="none"><i class="fab fa-linkedin-in"></i></a>
+                                    <div class="upward"><a href="#"><button><i
+                                                    class="far fa-hand-point-up"></i></button></a></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </footer>
+</body>
+
+</html>
